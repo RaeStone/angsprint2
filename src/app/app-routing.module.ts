@@ -4,6 +4,7 @@ import { BusinessComponent } from './business/business.component';
 import { PartyComponent } from './party/party.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'business'},
   { path: 'business', component: BusinessComponent },
   { path: 'party', component: PartyComponent }
 ];
