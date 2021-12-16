@@ -1,0 +1,65 @@
+
+<div *ngIf="showDogs">
+    <h1 class="title">Dogs over Cats</h1>
+    <button (click)="toggleChoice()">Switch</button>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Barq</mat-card-title>
+            <mat-card-subtitle>is great</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                If you’re a dog owner, you probably already know just how awesome dogs are. They fill your life with love, loyalty, fur and plenty of reasons to smile. 
+            </p>
+        </mat-card-content>    
+    </mat-card>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image2"></div>
+            <mat-card-title>Meowls</mat-card-title>
+            <mat-card-subtitle>is ok</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://media.istockphoto.com/photos/curious-kitten-looking-at-the-camera-picture-id1270023880" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                There's no question that cats are a popular choice for pets — in fact, according to the American Veterinary Medical Association, about 25 percent of U.S. households have these cute, furry felines as a live-in friend. 
+            </p>
+        </mat-card-content>    
+    </mat-card>
+    
+    
+
+</div>
+<div *ngIf="showCats">
+    <h1 class="title">Cats over Dogs</h1>
+    <button (click)="toggleChoice()">Switch</button>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image2"></div>
+            <mat-card-title>Meowls</mat-card-title>
+            <mat-card-subtitle>is great</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://media.istockphoto.com/photos/curious-kitten-looking-at-the-camera-picture-id1270023880" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                There's no question that cats are a popular choice for pets — in fact, according to the American Veterinary Medical Association, about 25 percent of U.S. households have these cute, furry felines as a live-in friend. 
+            </p>
+        </mat-card-content>    
+    </mat-card>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Barq</mat-card-title>
+            <mat-card-subtitle>is ok</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                If you’re a dog owner, you probably already know just how awesome dogs are. They fill your life with love, loyalty, fur and plenty of reasons to smile.
+            </p>
+        </mat-card-content>    
+    </mat-card>
+
+</div>

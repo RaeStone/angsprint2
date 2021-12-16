@@ -1,0 +1,10 @@
+<div [ngClass]="{lightDiv: lightMode, darkDiv: darkMode}">
+    <button (click)="toggleMenu()">{{buttonText}}</button>
+    <mat-grid-list cols="8" rowHeight="3em" class="grid" [ngClass]="{lightGrid: lightMode, darkGrid: darkMode}">
+        <mat-grid-tile *ngFor="let data of datas" id="tile" [ngClass]="{lightTile: lightMode, darkTile: darkMode}">
+            <div id="content">
+                {{data}}
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

@@ -1,0 +1,39 @@
+
+div{ 
+    background-color: #B9E28C; color: rgb(3, 122, 161);
+    
+}
+.title{
+text-align: center;
+padding-top: 2vh;
+font-size: 2em;
+font-weight: 800;
+}
+.example-card {
+    max-width: 700px;
+    display: block;
+    margin: 2vh auto;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+.example-header-image2 {
+    background-image: url('https://media.istockphoto.com/photos/curious-kitten-looking-at-the-camera-picture-id1270023880');
+    background-size: cover;
+  }
+button{
+    position: absolute;
+    right: 3vw;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0094C6;
+}
+button:hover{
+    background-color: #F77F00;
+    cursor: pointer;
+    
+}
